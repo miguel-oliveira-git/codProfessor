@@ -1,0 +1,19 @@
+{
+    "14": {
+        "id": 1,
+        "nomeUser": "Ussop",
+        "emailUser": "mentira@sogeking",
+        "idadeUser": "18",
+        "origem": "aula de 26-03",
+        "nomeMae": "sei la",
+        "nomePai": "Yasoop"
+    },
+    "16": {
+        "id": 333948,
+        "nomeUser": "Chico bento",
+        "emailUser": null,
+        "idadeUser": "chico@bento.comj",
+        "nomeMae": "mae do chico",
+        "nomePai": "pai do chico"
+    }
+}

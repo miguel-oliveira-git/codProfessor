@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Usuário</title>
+</head>
+<body>
+  <!-- Página de cadastro simples sem uso de CSS -->
+  <h1>Cadastro de Usuário</h1>
+  
+  <!-- Formulário que envia os dados para o script processa.php via método POST -->
+  <form action="cadastro2.php" method="POST">
+    <!-- Campo para inserir o nome do usuário -->
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required><br><br>
+    
+    <!-- Campo para inserir o email do usuário -->
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required><br><br>
+    
+    <label for="idade">Idade:</label>
+    <input type="text" name="idade" id="idade" required><br><br>
+    
+
+    <!-- Botão de envio do formulário -->
+    <input type="submit" value="Cadastrar">
+  </form>
+  
+  <!-- Link para acessar a página de listagem de usuários -->
+  <!-- <br> -->
+  <!-- <a href="lista.php">Ver lista de usuários</a> -->
+</body>
+</html>
